@@ -1,0 +1,10 @@
+import random
+import string
+
+def r1andom_ten():
+    letters = string.ascii_letters
+    ten =''.join(random.choice(letters) for i in range(10))
+
+    return ten
+
+
